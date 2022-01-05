@@ -1,0 +1,12 @@
+[package]
+name = "serde_cli"
+version = "0.0.0"
+authors = ["Ruslan Fadeev <kinrany@yandex.com>"]
+license = "Apache-2.0"
+description = "Use serde to convert text files between file formats"
+repository = "https://github.com/Kinrany/serde_cli"
+edition = "2021"
+
+[dependencies]
+erased-serde = "0.3.17"
+serde-transcode = "1.1.1"
